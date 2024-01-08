@@ -17,7 +17,7 @@ namespace ConsoleApp1
             int.TryParse(Console.ReadLine(), out age);
             Console.WriteLine("Terve " + fname);
             Console.WriteLine("Olet siis " + age + " vuotias");
-            Console.WriteLine("Olet syntynyt vuonna " + (2024 - age));
+            Console.WriteLine("Olet syntynyt Vuonna " + (2024 - age));
         }
     }
 }
