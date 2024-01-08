@@ -16,7 +16,7 @@ namespace ConsoleApp1
             //joten TryParse on tässä parempi
             int.TryParse(Console.ReadLine(), out age);
             Console.WriteLine("Terve " + fname);
-            Console.WriteLine("Olet siis " + age + " vuotias");
+            Console.WriteLine("Olet siis " + age + " vuotias!");
             Console.WriteLine("Olet syntynyt Vuonna " + (2024 - age));
         }
     }
